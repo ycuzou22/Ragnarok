@@ -34,3 +34,16 @@ Projets
 	- System d'inventaire
 	- System d'Easter Egg
 
+ - NORME (TRES IMPORTANT)
+ 	- git commit
+  		- "[ADD] message"
+    		- "[DEL] message"
+      		- "[MERGE] message"
+      		- "[FIX] message"
+      		- "[UPDATE] message"
+        - Branch
+        	- Une Branche == une fonctionalité ou un secteur
+         	- nom_de_la_branche (ATTENTION NOM/PRENOM/SUJET VAGUE INTERDIT !!!)
+          	- Fonction : verbeSujet
+          	- var : nameName
+
