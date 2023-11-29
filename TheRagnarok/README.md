@@ -36,7 +36,7 @@ Projets
 
  - NORME (TRES IMPORTANT)
  	- git commit
-  		- "[ADD] message"
+	  	- "[ADD] message"
     		- "[DEL] message"
       		- "[MERGE] message"
       		- "[FIX] message"
