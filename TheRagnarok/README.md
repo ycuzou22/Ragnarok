@@ -46,4 +46,14 @@ Projets
          	- nom_de_la_branche (ATTENTION NOM/PRENOM/SUJET VAGUE INTERDIT !!!)
           	- Fonction : verbeSujet
           	- var : nameName
+- Norme de commit
+	- git commit -m "[ADD]" // Ajouter un fichier ou une méthods
+	- git commit -m "[DELETE]" // Supprimer un fichier ou une portion de code
+	- git commit -m "[UPDATE]" // Mettre à jour une class / namespace / methods etc ...
+	- git commit -m "[MERGE]" // Fusion avec la branche main ou autre branche
+	- git commit -m "[FIX]" // Régler un problème dans votre algooritme
+	- git commit -m "[CREATE]" // Créer une nouvelle classe/methode/
+ - Norme de Code
+ 	- MaFonction()
+  	- MaVariable
 
