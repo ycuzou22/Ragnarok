@@ -1,0 +1,4 @@
+repository "TheRagnarok@ycuzou22@cloud"
+  path "/"
+    br "/main"
+    co "/main"
