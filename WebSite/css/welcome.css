@@ -56,7 +56,7 @@ h1:hover {
 
 
 header {
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
   right: 0;
   width: 100%;
@@ -573,4 +573,25 @@ body {
 
 .names {
   color: #ffea01;
+}
+
+.button_text {
+  color: #005fcb;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  width: 166px;
+  height: 48px;
+  padding: 16px 20px;
+  border-radius: 62px;
+  background: #f6d609;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 50px;
 }
