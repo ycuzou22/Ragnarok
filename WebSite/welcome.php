@@ -22,9 +22,10 @@
         </i>
     </div>
     <ul class="navlist">
-        <li><a href="#">Home</a></li>
+        <li><a href="#Comments">Comments</a></li>
+        <li><a href="#Characters">Characters</a></li>
+        <li><a href="#Weapons">Weapons</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#">Contact</a></li>
         <?php
             if (isset($_SESSION['prenom'])) {
                 echo '<li><a href="logout.php">Se déconnecter</a></li>';
@@ -55,7 +56,7 @@
     <script src="js/totop.js"></script>
 
     <div class="container">
-        <h2 class="heading">CHARACTERS</h2>                                                                                                                                                                                                                                                                                                                                                                                                                                          
+        <h2 class="heading" id="Characters">CHARACTERS</h2>                                                                                                                                                                                                                                                                                                                                                                                                                                          
         <div class="gallery">
     
             <div class="gallery-item">
@@ -87,7 +88,7 @@
     </div>
 
     <div class="container">
-        <h2 class="heading">WEAPONS</h2>                                                                                                                                                                                                                                                                                                                                                                                                                                        
+        <h2 class="heading" id="Weapons">WEAPONS</h2>                                                                                                                                                                                                                                                                                                                                                                                                                                        
         <div class="gallery">
     
             <div class="gallery-item">
@@ -128,8 +129,11 @@
     
     <footer>
     <div class="container">
-        <h2 class="heading">COMMENTS</h2>     
+        <h2 class="heading" id="Comments">COMMENTS</h2>     
         <div class="parent_section">
+            <section class="head">
+                <button class="reviews"><p class="button_text">Write a review</p></button>
+            </section>
             <section class="tab">
                 <section class="bord">
                     <div class="comment">
