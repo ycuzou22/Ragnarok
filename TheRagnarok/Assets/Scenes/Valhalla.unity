@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6d1ac7256c4c5488b4cc7053e361a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.3
+  speed: 0.21
 --- !u!23 &132029526
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -417,8 +417,8 @@ Transform:
   m_GameObject: {fileID: 328442560}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 637.8, y: -247.5, z: 5.4001}
-  m_LocalScale: {x: 85.15798, y: 5.467425, z: 18.225357}
+  m_LocalPosition: {x: 636.1056, y: -247.9055, z: 5.4001}
+  m_LocalScale: {x: 98.71536, y: 4.6562915, z: 18.225357}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 802250229}
@@ -707,7 +707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6d1ac7256c4c5488b4cc7053e361a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.2
+  speed: 0.16
 --- !u!23 &623566855
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1011,7 +1011,7 @@ Transform:
   m_GameObject: {fileID: 936130413}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 6.7, y: 0.8, z: 4}
+  m_LocalPosition: {x: 6.5, y: -0.6, z: 4}
   m_LocalScale: {x: 18.666742, y: 1.8074878, z: 9.476574}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6d1ac7256c4c5488b4cc7053e361a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.15
+  speed: 0.13
 --- !u!23 &936130416
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6d1ac7256c4c5488b4cc7053e361a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.25
+  speed: 0.19
 --- !u!23 &1202233295
 MeshRenderer:
   m_ObjectHideFlags: 0
