@@ -11,7 +11,7 @@ Notion
 - CyberSécurité (orienté server/Site Web)
 
 Projets
-- Site Web (Interactif) Sur les jeux vidéo
+-- Site Web (Interactif) Sur les jeux vidéo
 	- System de Login
 	- System de server
 	- System de stockage des données clients
@@ -34,16 +34,30 @@ Projets
 	- System d'inventaire
 	- System d'Easter Egg
 
- - NORME (TRES IMPORTANT)
- 	- git commit
-  		- "[ADD] message"
-    		- "[DEL] message"
-      		- "[MERGE] message"
-      		- "[FIX] message"
-      		- "[UPDATE] message"
-        - Branch
-        	- Une Branche == une fonctionalité ou un secteur
-         	- nom_de_la_branche (ATTENTION NOM/PRENOM/SUJET VAGUE INTERDIT !!!)
-          	- Fonction : verbeSujet
-          	- var : nameName
+-- NORME (TRES IMPORTANT)
+	- Branch
+		- Une Branche == une fonctionalité ou un secteur
+		- nom_de_la_branche (ATTENTION NOM/PRENOM/SUJET VAGUE INTERDIT !!!)
+		- Fonction : verbeSujet
+		- var : nameName
+  	- CMD Git
+   		- git add nameFile1 nameFile2 etc ... // Ajouter des fichier/ dos
+     		- git commit -m "message"
+       		- git push
+	 	- git checkout nameOfBranch
+   		- git switch nameOfBranch
+     		- git status
+       		- git pull
+	 - Pull Request
+  		- 
+-- Norme de commit
+	- git commit -m "[ADD] message" // Ajouter un fichier ou une méthods
+	- git commit -m "[DELETE] message " // Supprimer un fichier ou une portion de code
+	- git commit -m "[UPDATE] message" // Mettre à jour une class / namespace / methods etc ...
+	- git commit -m "[MERGE] message" // Fusion avec la branche main ou autre branche
+	- git commit -m "[FIX] message" // Régler un problème dans votre algooritme
+	- git commit -m "[CREATE] message" // Créer une nouvelle classe/methode/
+ -- Norme de Code
+ 	- MaFonction()
+  	- MaVariable
 
