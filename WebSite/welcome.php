@@ -28,9 +28,9 @@
         <li><a href="about.html">About</a></li>
         <?php
             if (isset($_SESSION['prenom'])) {
-                echo '<li><a href="logout.php">Se déconnecter</a></li>';
+                echo '<li><a href="logout.php">Disconnect</a></li>';
             } else {
-                echo '<li><a href="http://127.0.0.1/siteTP/connexion.php">Se connecter !</a></li>';
+                echo '<li><a href="http://127.0.0.1/siteTP/connexion.php">Connect !</a></li>';
             }
         ?>
     </ul>
@@ -39,7 +39,7 @@
     <section class="hero">
         <div class="hero-text">
             <h1 class="princip">RAGNA</h1>
-            <p>Bienvenue dans le jeu d'aventure le plus populaire de la décénnie ! Ragnar le viking et ses amis vous attendent !</p>
+            <p>Welcome to the most popular adventure game of the decade! Ragnar the Viking and his friends are waiting for you!</p>
             <a href="https://www.youtube.com/watch?v=QdBZY2fkU-0" class="ctaa" target="_blank"><i class="ri-play-fill"></i>Watch Trailer</a>
         </div>
         <div class="hero-img">
@@ -138,14 +138,14 @@
                 <section class="bord">
                     <div class="comment">
                         <p class="names">Samantha D.</p>
-                        <p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+                        <p>"Best strategy game i have played so far !"</p>
                     </div>
                     <p class="date">Posted on August 14, 2023</p>
                 </section>
                 <section class="bord">
                     <div class="comment">
                         <p class="names">Alex M.</p>
-                        <p>"The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."</p>
+                        <p>"Ragnar is so cool dude. I love his art style and his story. what a great character !"</p>
                     </div>
                         <p class="date">Posted on August 15, 2023</p>
                 </section>
@@ -153,7 +153,7 @@
                 <section class="bord">
                     <div class="comment">
                         <p class="names">Ethan R.</p>
-                        <p>"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."</p>
+                        <p>"How do I beat Celestia ? i am dying dude ! she is so fucking annoying holy."</p>
                     </div>
                         <p class="date">Posted on August 16, 2023</p>
                 </section>
@@ -161,7 +161,7 @@
                 <section class="bord">
                     <div class="comment">
                         <p class="names">Olivia P.</p>
-                        <p>"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."</p>
+                        <p>"StormBreaker is the best weapon. Change my mind."</p>
                     </div>
                         <p class="date">Posted on August 17, 2023</p>
                 </section>
@@ -169,7 +169,7 @@
                 <section class="bord">
                     <div class="comment">
                         <p class="names">Liam K.</p>
-                        <p>"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."</p>
+                        <p>"I love Ragna"</p>
                     </div>
                         <p class="date">Posted on August 18, 2023</p>
                 </section>
@@ -177,7 +177,7 @@
                 <section class="bord">
                     <div class="comment">
                         <p class="names">Ava H.</p>
-                        <p>"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter."</p>
+                        <p>"I didn't know that i can fly with royal ! what a banger weapon !"</p>
                     </div>
                         <p class="date">Posted on August 19, 2023</p>
                 </section>
