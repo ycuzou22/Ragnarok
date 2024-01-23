@@ -1,0 +1,3 @@
+Titre : Gameprogramming en c#
+
+Pitch : Découverte du principe de gestion de joueur, d'IA, du systeme de quêtes via les PNJ, d'Unity, ainsi que les avantages du c# en gameprogramming. La mise en pratique sera effectuée via la programmation orientée objet des fonctioniltées du jeu comme le déplacement, le system de boutique, les statistiques, l'inventaire, le bestiaire, les PNJ, les compagnons (IA), les monstres (IA), les interactions entre les différents assets et les EasterEggs.
