@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.bg-white {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    color: royalblue;
+    font-weight: 600;
+    text-align: center;
+}
+
+.text-muted {
+    font-size: 14px;
+    color: rgba(88, 87, 87, 0.822);
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    border-color: royalblue;
+}
+
+.btn-success {
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: rgb(56, 90, 194);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.text-danger {
+    color: red;
+}
+
+.d-grid {
+    display: grid;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-return {
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Ajout de la marge en bas pour espacer du formulaire */
+}
+
+.btn-return:hover {
+    background-color: rgb(56, 90, 194);
+}
+/* Add any additional styles for the message or other elements as needed */

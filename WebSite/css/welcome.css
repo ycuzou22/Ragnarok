@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4d9559;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: none;
+}
+
+.back-to-top:hover {
+  background-color: #3876c2;
+}
+
+h1{
+  font-family: 'aclonica', sans-serif;
+  animation: colorBlink 1.5s infinite;
+  transition: transform 0.5s ease;
+}
+
+h1:hover {
+  font-size: 120%;
+  animation: colorBlink 1.5s infinite;
+  transform: scale(1.2)
+}
+
+@keyframes colorBlink {
+  0%, 100% {
+    color: violet;
+  }
+  33% {
+    color: red;
+  }
+  66% {
+    color: yellow;
+  }
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 33px 9%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+body {
+  background-color: #39abdc;
+}
+
+.logo {
+  
+  width: 100px;
+  
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navlist {
+  display: flex;
+}
+
+.navlist a {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 60px;
+  border-bottom: 2px solid transparent;
+  transition: all .55s ease;
+
+}
+
+.navlist a:hover {
+  border-bottom: 2px solid #ffea01;
+  color: #ffea01;
+}
+
+#menu-icon {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  z-index: 10001;
+}
+
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+  
+}
+
+section {
+  padding: 0 9%;
+}
+
+.hero-text h5 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.hero-text h1 {
+  color: #fff;
+  font-size: 90px;
+  list-style: 1;
+  margin: 0 0 45px;
+}
+
+.hero-text h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 40px;
+}
+
+.hero-img img {
+  width: 700px;
+  height: auto;
+}
+
+.hero-text a {
+  display: inline-block;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 15px;
+  background: #4d9559;
+  border: 1px solid transparent;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500; 
+  border-radius: 30px ;
+  text-transform: uppercase;
+  transition: all .55s ease;
+}
+
+.hero-text a:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  transform: translateX(8px);
+}
+
+.hero-text a.ctaa {
+  background: transparent;
+  border: 1px solid #fff;
+  margin-left: 20px;
+}
+
+.hero-text a .ctaa i {
+ vertical-align: middle;
+ margin-right: 5px;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 6%;
+  right: 9%;
+}
+
+.scroll-down i {
+  display: block;
+  padding: 12px;
+  font-size: 25px;
+  color: #fff;
+  background: #4d9559;
+  border-radius: 30px;
+  transition: all .55s ease;
+}
+
+.scroll-down i:hover {
+  
+  transform: translateY(-5px);
+}
+
+@media (max-width: 1535px) {
+  header {
+    padding: 15px 3%;
+    transition: .2s;
+  }
+  .scroll-down {
+    transition: .2s;
+    right: 3%;
+  }
+  
+}
+
+@media (max-width: 1460px) {
+  .section {
+    padding: 0 12%;
+    transition: .2s;
+  }
+}
+
+@media (max-width: 1340px) {
+  .hero-img img {
+    width: 100px;
+    height: auto;
+  }
+
+  .hero-text h1 {
+    font-size: 75px;
+    margin: 0 0 30px;
+  }
+
+  .hero-text h5 {
+    
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 1195px) {
+  .section {
+    padding: 0 3%;
+    transition: .2s;
+  }
+  .hero-text{
+    padding-top: 115px;
+  }
+  .hero-img img {
+    width: 560px;
+    height: auto;
+  }
+
+  .hero{
+    height: 100%;
+    gap : 1rem;
+    grid-template-columns: 1fr;
+  }
+  .scroll-down {
+    display: none;
+  }
+}
+@media (max-width: 990px){
+  #menu-icon {
+    display: block;
+  }
+  .navlist{
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 300px;
+    height: 40vh;
+    background: #4d9559;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    transition: all .55s ease;
+  }
+  .navlist a{
+   display: block;
+   margin: 10px 0;
+  margin-left: 0;
+  }
+  .navlist.open{
+    right: 0;
+  }
+}
+
+@media (max-width: 680px){
+  .hero-img img {
+    width: 100%;
+    height: auto;
+  }
+  .hero-text a.ctaa {
+    margin-top: 20px;
+   margin-left: auto;
+    
+  }
+}
+/*  */
+/*
+
+All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 77). 
+        
+The 'supports' rule will only run if your browser supports CSS grid.
+
+Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+
+
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+  font-family: 'aclonica', sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  padding: 3.5rem 0;
+  color: yellow;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
+/* comment */
+
+body {
+  font-family: 'Anek Bangla', sans-serif;
+  font-weight:100
+}
+
+.star {
+  color:#FFC300;
+  grid-area:star;
+}
+
+.Name {
+  font-weight:700;
+  font-size:20px;
+  grid-area:Name;
+
+}
+
+.text {
+  font-size:16px;
+  font-weight:400;
+  grid-area:text;
+  color:rgba(0, 0, 0, 0.6);
+}
+
+.date {
+  font-size: 16px;
+  font-weight:900;
+  color:rgba(0, 0, 0, 0.6);
+  grid-area:date;    
+}
+
+.write {
+  color:white;
+  font-weight:900;
+  font-size:16px;
+}
+@media only screen and (min-width:1184px){
+.reviews {
+  margin-top:50px;
+  display:grid;
+  justify-content: center;
+  grid-template-areas: 
+  "comments comments"
+  "comments comments"
+  "comments comments";
+  row-gap: 40px;
+  column-gap: 40px;
+}
+
+.comments {
+  display:grid;
+  grid-template-areas: 
+  "star"
+  "name"
+  "text"
+  "date";
+  width:540px;
+  height: 200px;
+  border:2px solid rgb(224, 224, 224);
+  border-radius: 20px;
+  padding:10px;
+  column-gap: 20px;;
+}
+
+.comments:hover {
+  transform:scale(1.1)
+}
+
+.Name {
+  grid-area:name;
+}
+
+.text {
+  grid-area:text;
+}
+
+.date {
+  grid-area:date;
+}
+
+.allreviews {
+  display:flex;
+  justify-content: center;
+  margin-right:20px;
+}
+
+.writeBox {
+  margin-left:800px;
+  border-radius:20px;
+  border:0px solid rgb(0.185 0.3428 0.8969);
+  background: #1F59ED;
+  width:166px;
+  height:48px;
+}
+
+.writeBox:hover {
+  transform:scale(1.1);
+}
+
+.write {
+  margin-top:10px;
+  margin-left:10px;
+  width:133px;
+  height:23px;
+
+}
+}
+
+@media only screen and (min-width:450px) and (max-width:1184px){
+  .reviews {
+      margin-top: 27px;
+      display:flex;
+      flex-direction: column;
+      gap:23px;
+  }
+  .comments {
+      display:flex;
+      flex-direction: column;
+      width:358px;
+      height:169px;
+      border:1px solid rgb(224, 224, 224);
+      border-radius: 20px;
+      padding:24px;
+      gap:10px
+  }
+
+  .allreviews {
+      display:flex;
+      justify-content: left;
+      width: 500px;
+      height:27px;
+      font-size:20px;
+      font-weight:700
+  }
+
+  .writeBox {
+      margin-top:-5px;
+      margin-left:180px;
+      border-radius:20px;
+      border:0px solid rgb(0.185 0.3428 0.8969);
+      background: #1F59ED;
+      width:113px;
+      height:40px;
+  }
+
+  .write {
+      font-size:12px;
+      font-weight: 500;
+  }
+}
+
+.parent_section {
+  display: grid;
+  place-self: center;
+}
+
+.tab {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.bord {
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid color(display-p3 0 0 0 / 0.2);
+  transition: transform 0.5s ease;
+}
+
+.bord:hover {
+  opacity: 5;
+  transform: scale(1.1);
+}
+
+.names {
+  color: #ffea01;
+}
